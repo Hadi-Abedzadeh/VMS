@@ -10,6 +10,7 @@ class CourseSlug extends Model
 {
     const FREE_PRICE = 0;
     const COURSE_FREE = 1;
+    const PAGINATE_COUNT = 15;
 
     const imageStoragePath = '/storage/VMS/images/';
     const videoStoragePath = '/storage/VMS/videos/';

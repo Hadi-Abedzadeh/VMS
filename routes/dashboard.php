@@ -15,10 +15,8 @@ Route::prefix('dashboard')->group(function() {
     Route::post('login', 'Auth\AdminLoginController@login')->name('admin-login');
 });
 
-Route::prefix('/dashboard')->name('dashboard.')->namespace('Dashboard')->group(function () {
+Route::prefix('/dashboard')->name('dashboard.')->namespace('Dashboard')->middleware('auth:admin')->group(function () {
 
-
-    Route::middleware(['auth:admin'])->group(function () {
         Route::get('/', 'DashboardController@index')->name('index');
         Route::resource('blog', 'blogController');
         Route::resource('courses', 'CourseController');
@@ -27,5 +25,6 @@ Route::prefix('/dashboard')->name('dashboard.')->namespace('Dashboard')->group(f
         Route::post('course/{id}', 'CourseController@courseLesson')->name('courses.course-lesson');
         Route::get('course-upload', 'CourseController@upload')->name('courses.upload');
         Route::post('course-upload', 'CourseController@upload_store')->name('courses.upload_store');
-    });
+
+        Route::resource('users', 'UserController');
 });

@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="container">
                             <table style="border: 1px solid black; width: 100%; ">
-                                <thead style="  height: 50px; background: #F16334">
+                                <thead style="  height: 50px; background: #f13494">
                                     <tr style="height: 50px;">
                                         <th class="pt-10 col-lg-3">{{ trans('ui.text.course') }}</th>
                                         <th class="pt-10 col-lg-2">{{ trans('ui.text.gateway') }}</th>

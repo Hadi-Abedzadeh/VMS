@@ -9,6 +9,7 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use Notifiable;
+    const PAGINATE_COUNT = 30;
 
     /**
      * The attributes that are mass assignable.

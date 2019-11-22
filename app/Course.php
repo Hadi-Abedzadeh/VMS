@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Course extends Model
 {
 
+    const PAGINATE_COUNT = 15;
 
     protected $table = 'class_courses';
     use Sluggable;

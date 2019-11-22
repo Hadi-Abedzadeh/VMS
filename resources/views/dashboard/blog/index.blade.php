@@ -40,7 +40,7 @@
 
                             @foreach($posts as $post)
                                 <tr role="row" class="odd">
-                                    <td>1</td>
+                                    <td>{{$loop->iteration}}</td>
                                     <td><img width="80px" src="{{ $post->image }}"></td>
                                     <td>{{ ($post->title) }}</td>
                                     <td>{{ $post->created_at }}</td>

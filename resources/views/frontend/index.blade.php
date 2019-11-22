@@ -7,9 +7,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-8 offset-xl-2">
-                            <h1><span>کاویمو، </span> پلتفرم میزبانی ویدیو با ویژگی‌های منحصربه‌فرد</h1>
-                            <p>اولین سرویس میزبانی ویدیو برای صاحبان کسب‌وکار آنلاین</p>
-                            <a href="/pricing">از اینجا شروع کنید<i class="md-arrow-back"></i></a></div>
+                            <h1>{!! trans('ui.general.framework_title')  !!} </h1>
+                            <p>{{ trans('ui.general.framework_description') }}</p>
+                            <a href="/courses">از اینجا شروع کنید<i class="md-arrow-back"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
         </section>
 
         @if(!auth()->guest())
-        <section class="articles" style="background: #F16334">
+        <section class="articles" style="background: #f13494">
             @if(count($user_purchases) > 0)
                 <h2>{{ trans('ui.course.your_purchase_course') }}</h2>
             @else

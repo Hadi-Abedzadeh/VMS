@@ -1,5 +1,6 @@
 @extends('layouts.dashboard')
-@section('title', trans('ui.text.courses'))
+@section('title', trans('ui.text.users'))
+
 @section('content')
     <div class="card">
         <div class="card-header">
@@ -21,42 +22,29 @@
                                     #
                                 </th>
                                 <th>
-                                    تصویر
+                                    {{ trans('ui.users.name') }}
                                 </th>
                                 <th>
-                                    عنوان
+                                    {{ trans('ui.users.email') }}
                                 </th>
                                 <th>
-                                    ترم های این درس
+                                    {{ trans('ui.general.created_at') }}
                                 </th>
                                 <th>
-                                    عملیات
+                                    {{ trans('ui.general.operation') }}
                                 </th>
 
                             </tr>
                             </thead>
                             <tbody>
 
-                            @foreach($courses as $course)
+                            @foreach($users as $user)
                                 <tr role="row" class="odd">
                                     <td>{{$loop->iteration}}</td>
-                                    <td><img width="80px" src="{{ $course->image }}"></td>
-                                    <td>{{ to_persian($course->title) }}</td>
-                                    <td>
-                                        @php
-                                            $course_id = $course->course_id;
-                                            $course_id = explode(',', $course_id);
-                                            $courses_slug = App\Course::with('lessons')->whereIn('id', $course_id)->get();
-                                        @endphp
-                                        @foreach($courses_slug as $course_id)
-                                            <div  class="badge bg-primary"> {{ $course_id->title }} </div>
-                                        @endforeach
-
-                                    </td>
-                                    <td>
-                                        <a href="{{ route('dashboard.courses.detail', $course->course_id) }}"> <i class="fa fa-edit"></i> </a>
-
-                                    </td>
+                                    <td>{{ $user->name }}</td>
+                                    <td>{{ $user->email }}</td>
+                                    <td>{{ $user->created_at }}</td>
+                                    <td>-</td>
                                 </tr>
                             @endforeach
 
@@ -68,11 +56,12 @@
                     <div class="col-sm-12 col-md-5"></div>
                     <div class="col-sm-12 col-md-7">
                         <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
-                            {{ $courses->links() }}
+                            {{ $users->links() }}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- /.card-body -->
     </div>
 @endsection

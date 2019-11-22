@@ -18,7 +18,7 @@ class CourseController extends Controller
      */
     public function index()
     {
-        $courses = CourseSlug::orderBy('id', 'DESC')->paginate(1);
+        $courses = CourseSlug::orderBy('id', 'DESC')->paginate(CourseSlug::PAGINATE_COUNT);
         return view('dashboard.course.index', compact('courses'));
     }
 

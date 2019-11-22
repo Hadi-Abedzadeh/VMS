@@ -38,7 +38,7 @@
 
                             @foreach($terms as $term)
                                 <tr role="row" class="odd">
-                                    <td>1</td>
+                                    <td>{{$loop->iteration}}</td>
                                     <td><img width="80px" src="{{ $term->image }}"></td>
                                     <td>{{ $term->title }}</td>
                                     <td>

@@ -18,7 +18,7 @@ vms.site/login              ~> User auth
 set user `admin@admin.com` and password `$2y$10$v0xk2OGFM9It0Xgw3KtjHe7Y7wvCsDCAhL.twMlAfls/rgtw4BLgu`
 into `admins` table and then you can login with `admin@admin.com` and password `password`.
   
-#### User Auth  
+#### User Auth
 set username `hadi@hadi.com` and password `$2y$10$iW5hiQSQiGmo.C4jw2XEC.odUFGm6NWp1S8TPJhSM6fbMWzz8j06C`
 into `users` table and then you can login with `hadi@hadi.com` and password `123456789`.
 

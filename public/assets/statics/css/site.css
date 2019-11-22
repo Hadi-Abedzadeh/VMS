@@ -5048,7 +5048,7 @@ input, textarea, select, button {
 }
 
 .form .wrapfield.checkbox input[type=checkbox]:checked + label:before {
-    background: #f16334
+    background: #f13494
 }
 
 .form .wrapfield.checkbox input[type=checkbox] + label {
@@ -5060,7 +5060,7 @@ input, textarea, select, button {
 }
 
 .form .wrapfield.checkbox input[type=checkbox] + label > a {
-    color: #f16334
+    color: #f13494
 }
 
 .form .wrapfield.checkbox input[type=checkbox] + label:before {
@@ -5160,7 +5160,7 @@ input, textarea, select, button {
 }
 
 .form button[type=submit] {
-    background: #f16334
+    background: #f13494
 }
 
 @keyframes scale-error {
@@ -5187,7 +5187,7 @@ input, textarea, select, button {
     width: 100%;
     z-index: 5;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-    background-color: #f16334;
+    background-color: #f13494;
     height: 70px;
     padding: 15px 0;
     text-align: left;
@@ -5197,7 +5197,7 @@ input, textarea, select, button {
 
 #iwfm-header:hover .button {
     background: #fff;
-    color: #f16334
+    color: #f13494
 }
 
 #iwfm-header .logo {
@@ -5294,8 +5294,8 @@ header .account > a.signup {
     -webkit-border-radius: 20px;
     -o-border-radius: 20px;
     -moz-border-radius: 20px;
-    background: #f16334;
-    border: solid 2px #f16334;
+    background: #f13494;
+    border: solid 2px #f13494;
     color: #fff;
     transition: ease-in-out .13s;
     -ms-transition: ease-in-out .13s;
@@ -5305,7 +5305,7 @@ header .account > a.signup {
 }
 
 header .account > a.signup:hover {
-    color: #f16334;
+    color: #f13494;
     background: transparent
 }
 
@@ -5504,7 +5504,7 @@ header .account > .account-expand .expand-menu .inner ul li a i {
     float: right;
     margin: 2px 5px 0 10px;
     font-size: 18px;
-    color: #f16334
+    color: #f13494
 }
 
 header .account > .account-expand .expand-menu .inner ul li a:hover {
@@ -5549,19 +5549,19 @@ header .menu > a {
 }
 
 header .menu > a:hover {
-    border-bottom-color: #f16334;
+    border-bottom-color: #f13494;
     color: #43464b
 }
 
 header .menu > a:hover.active {
-    border-bottom-color: #f16334
+    border-bottom-color: #f13494
 }
 
 header .menu > a.active {
     margin: 6px 5px 0;
     padding: 5px 20px;
-    border: solid 2px #f16334;
-    color: #f16334;
+    border: solid 2px #f13494;
+    color: #f13494;
     border-radius: 20px;
     -ms-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -5805,7 +5805,7 @@ header .menu .title-sm {
 
     header .menu > a i, header .menu a.active i {
         float: right;
-        color: #f16334;
+        color: #f13494;
         margin: 2px 0 0 15px;
         font-size: 20px
     }
@@ -5848,7 +5848,7 @@ header .menu .title-sm {
     }
 
     header .menu .user-links > a:first-child {
-        background: #f16334;
+        background: #f13494;
         color: #fff
     }
 
@@ -5938,7 +5938,7 @@ header .menu .title-sm {
     header .menu .user-links .account-expand > .expand-menu ul li a i {
         float: right;
         margin: 5px 0 0 10px;
-        color: #f16334
+        color: #f13494
     }
 
     .title-page {
@@ -6156,7 +6156,7 @@ header .menu .title-sm {
 }
 
 footer {
-    background: #f16334;
+    background: #f13494;
     width: 100%;
     padding: 25px 0 5px
 }
@@ -6291,7 +6291,7 @@ footer.white .social svg:hover {
 }
 
 .signup-landing a.start-free {
-    background: #f16334;
+    background: #f13494;
     font-weight: normal;
     display: inline-block;
     border: solid 3px transparent;
@@ -6313,8 +6313,8 @@ footer.white .social svg:hover {
 
 .signup-landing a.start-free:hover {
     background: transparent;
-    border-color: #f16334;
-    color: #f16334
+    border-color: #f13494;
+    color: #f13494
 }
 
 .signup-landing a.start-free > i {
@@ -6384,7 +6384,7 @@ footer.white .social svg:hover {
 .newsletter-landing button {
     display: block;
     width: 100%;
-    background: #f16334;
+    background: #f13494;
     color: #fff;
     border: none;
     border-bottom: solid 2px #e05223;
@@ -6412,7 +6412,7 @@ footer.white .social svg:hover {
 
 .newsletter-landing .newsletter-success {
     display: block;
-    background: #f16334;
+    background: #f13494;
     color: #fff;
     border-radius: 6px;
     -ms-border-radius: 6px;
@@ -6656,7 +6656,7 @@ footer.white .social svg:hover {
 
 .popup-ads .box-popup .footer > a {
     display: block;
-    background: #f16334;
+    background: #f13494;
     border-bottom: solid 4px #be3001;
     border-radius: 4px;
     -ms-border-radius: 4px;
@@ -6753,7 +6753,7 @@ main .hero .content p {
 }
 
 main .hero .content a {
-    background: #f16334;
+    background: #f13494;
     border: solid 3px transparent;
     font-weight: bold;
     color: #fff;
@@ -6776,8 +6776,8 @@ main .hero .content a {
 
 main .hero .content a:hover {
     background: transparent;
-    border-color: #f16334;
-    color: #f16334
+    border-color: #f13494;
+    color: #f13494
 }
 
 main .hero .content a > i {
@@ -6861,9 +6861,9 @@ main .features .convinced b {
 
 main .features a.signup {
     background: transparent;
-    border: solid 3px #f16334;
+    border: solid 3px #f13494;
     font-weight: bold;
-    color: #f16334;
+    color: #f13494;
     padding: 15px;
     font-size: 17px;
     width: 25%;
@@ -6881,8 +6881,8 @@ main .features a.signup {
 }
 
 main .features a.signup:hover {
-    background: #f16334;
-    border-color: #f16334;
+    background: #f13494;
+    border-color: #f13494;
     color: #fff
 }
 
@@ -7000,7 +7000,7 @@ main .articles .article-box .content .down a:hover {
 
 main .finish {
     display: block;
-    background: #f16334
+    background: #f13494
 }
 
 main .finish .connect {
@@ -7041,7 +7041,7 @@ main .finish .newsletter .input-wrap {
     -o-border-radius: 10px;
     -moz-border-radius: 10px;
     border: solid 2px #fff;
-    background: #f16334;
+    background: #f13494;
     margin-top: 50px;
     width: 550px
 }
@@ -7444,7 +7444,7 @@ ul {
     border-radius: 5px;
     padding: 10px;
     margin: auto;
-    border: 1px solid #F16334;
+    border: 1px solid #f13494;
     position: absolute;
     left: 0;
     right: 0;
@@ -7498,7 +7498,7 @@ ul {
 /**/
 #scrollTop {
     display: inline-block;
-    background-color: #FF9800;
+    background-color: #f13494;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -7586,7 +7586,7 @@ ul {
 }
 
 .btn-orange {
-    background: #f16334;
+    background: #f13494;
 }
 
 .btn-gray {
@@ -7596,7 +7596,7 @@ ul {
 /**/
 
 .dropbtn:hover {
-    color: #f16334;
+    color: #f13494;
     background: transparent;
 }
 
@@ -7607,8 +7607,8 @@ ul {
     -webkit-border-radius: 20px;
     -o-border-radius: 20px;
     -moz-border-radius: 20px;
-    background: #f16334;
-    border: solid 2px #f16334;
+    background: #f13494;
+    border: solid 2px #f13494;
     color: #fff;
     transition: ease-in-out .13s;
     -ms-transition: ease-in-out .13s;

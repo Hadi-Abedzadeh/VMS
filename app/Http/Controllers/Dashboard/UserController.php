@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use App\Course;
+
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Http\Request;
 
-class TermController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +16,9 @@ class TermController extends Controller
      */
     public function index()
     {
-        $terms = Course::with('lessons')->orderBy('id', 'DESC')->paginate(Course::PAGINATE_COUNT);
+        $users = User::orderBy('id', 'desc')->paginate(User::PAGINATE_COUNT);
 
-        return view('dashboard.term.index', compact('terms'));
+        return view('dashboard.users.index', compact('users'));
     }
 
     /**
